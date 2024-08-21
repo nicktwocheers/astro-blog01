@@ -1,7 +1,7 @@
 ---
 import Layout from "../layouts/Layout.astro";
 import { getBlogs } from "../libs/microcms";
-const msg = "Astro Blog";
+// const msg = "Astro Blog";
 //MicroCMSの呼び出し
 const response = await getBlogs({ fields: ["id", "title"] });
 ---

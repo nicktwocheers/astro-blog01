@@ -1,7 +1,8 @@
 
-import { createClient} from "microcms-js-sdk";
-import pkg from 'microcms-js-sdk';
-const { MicroCMSQueries }  = pkg;
+import { createClient, MicroCMSQueries } from "microcms-js-sdk";
+// import { createClient} from "microcms-js-sdk";
+// import pkg from 'microcms-js-sdk';
+// const { MicroCMSQueries }  = pkg;
 
 const client = createClient({
     serviceDomain: import.meta.env.SERVICE_DOMAIN,
